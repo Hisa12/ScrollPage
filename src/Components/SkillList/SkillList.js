@@ -1,48 +1,38 @@
 import React from "react";
-import { Tag, Space, Card } from "antd";
-import frontFrame from "./Skills/FrontEnd";
-import backFrame from "./Skills/BackEnd";
+import { Tag, Space, Card, Row, Col, Typography, Progress } from "antd";
+import SkillData from "./Skills/SkillData";
+const Title = Typography;
 
 function SkillList() {
   return (
-    <Card
-      title={<h2>Professional Skills</h2>}
-      style={{
-        textAlign: "center",
-        boxShadow: "5px 10px 0px 0px rgb(102, 51, 153), 5px 10px",
-        borderColor: "#663399",
-      }}
-    >
-      <h2>Front End</h2>
-      <div>
-        <Space size={[0]} wrap style={{ lineHeight: 2.5 }}>
-          {frontFrame.map((item) => (
-            <Tag
-              key={item.skill}
-              style={{ fontSize: 18, padding: 3 }}
-              color={item.color}
+    <>
+      {SkillData.map((item) => (
+        <Col sm={20} md={14} xl={10}>
+          <Row>
+            <Title
+              style={{
+                textAlign: "left",
+                fontSize: "20px",
+                fontWeight: "bold",
+                color: "#ffffff",
+              }}
             >
               {item.skill}
-            </Tag>
-          ))}
-        </Space>
-      </div>
-
-      <h2>Back End</h2>
-      <div>
-        <Space size={[0, 8]} wrap>
-          {backFrame.map((item) => (
-            <Tag
-              key={item.skill}
-              style={{ fontSize: 18, padding: 3 }}
-              color={item.color}
-            >
-              {item.skill}
-            </Tag>
-          ))}
-        </Space>
-      </div>
-    </Card>
+            </Title>
+          </Row>
+          <Row>
+            <Progress
+              percent={item.percentage}
+              strokeColor="#2CD4D9"
+              trailColor="#212122"
+              strokeLinecap="butt"
+              showInfo={false}
+              size={[420, 15]}
+            />
+          </Row>
+        </Col>
+      ))}
+    </>
   );
 }
 

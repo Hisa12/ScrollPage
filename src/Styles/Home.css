@@ -1,79 +1,81 @@
-.homePage {
-  overflow-x: hidden;
-  align-items: center;
-  justify-content: center;
-}
-.introImg {
-  width: 100%;
-  max-width: 600px;
+.background {
+  background-color: #050301;
 }
 
-.firstComp {
-  padding-top: 40px;
-  height: 68vh;
+.outline {
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
-.introContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.container {
+  padding-top: 20px;
+  height: 75vh;
 }
-
-.secondComp {
+.firstContainer {
   height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(78, 13, 104, 255);
-  padding-bottom: 20px;
+  padding-top: 80px;
 }
 
-.ant-progress-status-success .ant-progress-texr {
+.thirdContainer {
+  height: 120vh;
+  padding-top: 80px;
+}
+.fourthContainer {
+  height: 100vh;
+  padding-top: 80px;
+}
+
+.contactContainer {
+  padding-top: 40px;
+  height: 50vh;
+
+  text-align: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+
+/* .ant-progress-status-success .ant-progress-texr {
   color: #c4c4c4;
   background-color: wheat;
-}
+} */
 
-.thirdComp {
-  padding-top: 80px;
-  height: 90vh;
-}
-
-.careerExp {
-  display: flex;
-  justify-content: center;
-}
-
-@media screen and (max-width: 900px) {
-  .secondComp {
-    height: 100vh;
+@media screen and (max-width: 1000px) {
+  .outline {
+    padding-right: 12px;
+    padding-left: 12px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .introContainer.img {
-    display: none;
+@media screen and (max-width: 800px) {
+  .secondContainer.MySkills {
+    padding-top: 300px;
   }
-  .firstComp {
-    height: 60vh;
-  }
-  .secondComp {
-    height: 100vh;
-  }
-  .thirdComp {
-    padding-top: 80px;
-    height: 120vh;
+}
+@media screen and (max-width: 800px) {
+  .secondContainer.Resume {
+    padding-top: 300px;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .firstComp {
-    height: 50vh;
+@media screen and (max-width: 1200px) {
+  .thirdContainer {
+    padding-top: 300px;
   }
-  .secondComp {
-    height: 90vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .fourthContainer {
+    padding-top: 100px;
   }
-  .thirdComp {
-    padding-top: 40px;
-    height: 100vh;
+}
+@media screen and (max-width: 1200px) {
+  .contactContainer {
+    padding-top: 350px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contactContainer {
+    padding-top: 600px;
   }
 }

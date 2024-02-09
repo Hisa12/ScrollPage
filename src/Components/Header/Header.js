@@ -1,10 +1,13 @@
 import "./Header.css";
 import { Space, Drawer, Menu, Typography } from "antd";
 import React, { useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-scroll";
+
+import { Outlet } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
 import SNSIcons from "../SNSIcons/SNSIcons";
 import Footer from "../Footer/Footer";
+import HeaderList from "./HeaderList";
 const { Title } = Typography;
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -17,12 +20,12 @@ function Header() {
       <div className="navComp">
         <div className="logo">
           <Link to="/" style={{ textDecoration: "none" }}>
-            <Title style={{ fontFamily: "cursive" }}>Hisa</Title>
+            <Title style={{ color: "white" }}>Hisano</Title>
           </Link>
         </div>
         <div style={{ float: "right" }} className="hamburgerIcon">
           <MenuOutlined
-            style={{ color: "black", fontSize: 30 }}
+            style={{ color: "white", fontSize: 30 }}
             onClick={() => {
               setOpenMenu(true);
             }}
@@ -32,7 +35,7 @@ function Header() {
         <div className="horizontalMenu">
           <Space>
             <NavigationBar />
-            <SNSIcons />
+            {/* <SNSIcons /> */}
           </Space>
         </div>
 
@@ -44,15 +47,14 @@ function Header() {
           }}
           closable={true}
           onClick={toggleDrawer}
+          drawerStyle={{ backgroundColor: "black" }}
         >
           <NavigationBar isInline />
-
-          <SNSIcons />
         </Drawer>
       </div>
       <Outlet />
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
@@ -71,16 +73,20 @@ function NavigationBar({ isInline = false }) {
           border: "none",
           fontSize: 15,
           width: 250,
+          color: "white",
+          backgroundColor: "black",
         }}
         onClick={onClick}
         selectedKeys={[current]}
         mode={isInline ? "inline" : "horizontal"}
       >
         <Menu.Item key="h">
-          <Link to="/">Home</Link>
+          <Link to="Home">Home</Link>
         </Menu.Item>
         <Menu.Item key="p">
-          <Link to="/project">Project</Link>
+          <Link to="project" smooth={true} offset={200} duration={500}>
+            Project
+          </Link>
         </Menu.Item>
 
         <Menu.Item key="c">

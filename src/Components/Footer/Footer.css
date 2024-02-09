@@ -1,7 +1,10 @@
+.footerContainer {
+  padding-top: 50px;
+}
 .footer {
-  color: gray;
+  color: #ffffff;
   display: flex;
-
+  background-color: #050301;
   justify-content: center;
 
   left: 0;

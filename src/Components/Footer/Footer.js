@@ -4,10 +4,12 @@ import { Typography } from "antd";
 
 function Footer() {
   return (
-    <div className="footer">
-      <Typography style={{ fontSize: 15, padding: 12 }}>
-        Made by Hisa Sato
-      </Typography>
+    <div className="footerContainer">
+      <div className="footer">
+        <Typography style={{ color: "#ffffff", fontSize: 15, padding: 12 }}>
+          Made by Hisa Sato
+        </Typography>
+      </div>
     </div>
   );
 }

@@ -5,15 +5,15 @@ import "./SNSIcons.css";
 
 function SNSIcons() {
   return (
-    <Space wrap className="snsComp">
+    <Space size="large" className="snsComp">
       <a
         href="https://www.linkedin.com/in/hisano-sato-501a42205"
         className="LinkedInLink"
       >
-        <LinkedinFilled className="sns" />
+        <LinkedinFilled style={{ fontSize: "50px", color: "gray" }} />
       </a>
       <a href="https://github.com/Hisa12">
-        <GithubOutlined className="sns" />
+        <GithubOutlined style={{ fontSize: "50px", color: "gray" }} />
       </a>
     </Space>
   );

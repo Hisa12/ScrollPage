@@ -1,20 +1,13 @@
-.ContactPage {
-  align-items: center;
-}
-.InnerContactPage {
-  display: flex;
-  justify-content: center;
-}
 .contactImg {
-  width: 100%;
-  max-width: 800px;
-}
-.contactComp {
-  display: flex;
-  justify-content: center;
+  height: 58vh;
+  background-image: url("../assets/background2.png");
+
+  text-align: center;
+  background-repeat: no-repeat;
 }
 
-.employButtion {
-  padding-top: 5%;
-  padding-bottom: 5%;
+.padding {
+  padding-top: 40px;
+  padding-left: 7px;
+  padding-right: 7px;
 }

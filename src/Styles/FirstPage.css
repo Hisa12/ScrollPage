@@ -1,0 +1,13 @@
+.container {
+  height: 75vh;
+  background-image: url("../assets/background1.png");
+
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.padding {
+  padding-left: 7px;
+  padding-right: 7px;
+}

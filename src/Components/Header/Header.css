@@ -1,4 +1,5 @@
 .navComp {
+  background-color: black;
   padding: 0 50px;
   display: flex;
   align-items: center;
@@ -13,22 +14,23 @@
 .ant-menu .ant-menu-item-selected,
 .ant-menu-horizontal .ant-menu-item::after,
 .ant-menu-inline .ant-menu-item::after {
-  color: rgb(58, 213, 179) !important;
+  color: rgb(29, 229, 255) !important;
   border-bottom: none !important ;
+  background-color: black;
 }
 
 .ant-menu .ant-menu-item-selected {
-  background-color: rgb(230, 255, 249);
+  background-color: black;
 }
 
 .logo {
-  width: 100px;
+  width: 150px;
   float: left;
 }
 
 .sns {
   font-size: 23px;
-  color: black;
+  color: rgb(119, 119, 119);
   margin-left: 8px;
   margin-right: 8px;
 }
