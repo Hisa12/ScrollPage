@@ -52,7 +52,7 @@ function Header() {
           <NavigationBar isInline />
         </Drawer>
       </div>
-      <Outlet />
+      {/* <Outlet /> */}
 
       {/* <Footer /> */}
     </div>
@@ -72,7 +72,7 @@ function NavigationBar({ isInline = false }) {
         style={{
           border: "none",
           fontSize: 15,
-          width: 250,
+          width: 500,
           color: "white",
           backgroundColor: "black",
         }}
@@ -81,16 +81,34 @@ function NavigationBar({ isInline = false }) {
         mode={isInline ? "inline" : "horizontal"}
       >
         <Menu.Item key="h">
-          <Link to="Home">Home</Link>
+          <Link to="Home" smooth={true} offset={-430} duration={500}>
+            Home
+          </Link>
+        </Menu.Item>
+        <Menu.Item key="i">
+          <Link to="AboutMe" smooth={true} offset={-430} duration={500}>
+            About
+          </Link>
         </Menu.Item>
         <Menu.Item key="p">
-          <Link to="project" smooth={true} offset={200} duration={500}>
+          <Link to="MySkills" smooth={true} offset={200} duration={500}>
+            Skills
+          </Link>
+        </Menu.Item>
+        <Menu.Item key="j">
+          <Link to="Resume" smooth={true} offset={200} duration={500}>
+            Resume
+          </Link>
+        </Menu.Item>
+        <Menu.Item key="s">
+          <Link to="Project" smooth={true} offset={200} duration={500}>
             Project
           </Link>
         </Menu.Item>
-
         <Menu.Item key="c">
-          <Link to="/contact">Contact</Link>
+          <Link to="Contact" smooth={true} offset={200} duration={500}>
+            Contact
+          </Link>
         </Menu.Item>
       </Menu>
     </div>

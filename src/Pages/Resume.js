@@ -6,7 +6,9 @@ const { Title } = Typography;
 function Resume() {
   return (
     <div className="resumeContainer">
-      <Title style={{ color: "#ffffff", letterSpacing: "5px" }}>Resume</Title>
+      <Title style={{ color: "#ffffff", letterSpacing: "5px" }} id="Resume">
+        Resume
+      </Title>
       <div style={{ paddingTop: 50 }}>
         <Title level={2} style={{ color: "#2CD4D9" }}>
           Work Experience

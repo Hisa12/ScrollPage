@@ -10,7 +10,7 @@ function Project() {
   return (
     <div className="projectContainer">
       <div style={{ paddingTop: "80px" }}>
-        <Title style={{ color: "#ffffff", letterSpacing: "5px" }}>
+        <Title style={{ color: "#ffffff", letterSpacing: "5px" }} id="Project">
           Project
         </Title>
       </div>

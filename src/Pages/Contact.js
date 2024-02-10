@@ -12,7 +12,10 @@ function Contact() {
       <div className="padding">
         <Flex vertical>
           <div>
-            <Title style={{ color: "#ffffff", letterSpacing: "5px" }}>
+            <Title
+              style={{ color: "#ffffff", letterSpacing: "5px" }}
+              id="Contact"
+            >
               Contact Me
             </Title>
           </div>

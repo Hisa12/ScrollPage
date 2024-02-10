@@ -8,7 +8,7 @@ function AboutMe() {
   return (
     <div className="aboutmeContainer">
       <div style={{ paddingTop: "80px" }}>
-        <Title style={{ color: "#ffffff", letterSpacing: "5px" }}>
+        <Title style={{ color: "#ffffff", letterSpacing: "5px" }} id="AboutMe">
           About Me
         </Title>
       </div>

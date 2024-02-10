@@ -8,7 +8,7 @@ function MySkills() {
   return (
     <div className="mySkillsContainer">
       <div style={{ paddingTop: "80px" }}>
-        <Title style={{ color: "#ffffff", letterSpacing: "5px" }}>
+        <Title style={{ color: "#ffffff", letterSpacing: "5px" }} id="MySkills">
           My Skills
         </Title>
       </div>
