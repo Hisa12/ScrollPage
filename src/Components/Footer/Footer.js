@@ -7,7 +7,7 @@ function Footer() {
     <div className="footerContainer">
       <div className="footer">
         <Typography style={{ color: "#ffffff", fontSize: 15, padding: 12 }}>
-          Made by Hisa Sato
+          Made by Hisano Sato
         </Typography>
       </div>
     </div>

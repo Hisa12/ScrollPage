@@ -21,7 +21,8 @@ function MySkills() {
             fontSize: "18px",
           }}
         >
-          My eagerness to acquire new technologies is unstoppable!{" "}
+          My enthusiasm for new technologies fuels my constant pursuit of
+          innovation!
         </p>
       </Col>
 

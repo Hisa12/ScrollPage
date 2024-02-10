@@ -33,13 +33,13 @@ function AboutMe() {
                   fontSize: "18px",
                 }}
               >
-                accidentally discovered inspect element while I watching my
-                favorite show online. That was the Voila moment for me. The tags
-                and syntaxes fascinated me so I decided to be friends with them
-                and become a programmer. After countless bugs, coding tutorials,
-                and several cups of coffee, I am now a full-stack developer. I
-                code projects during the day and learn new programming languages
-                during the night. Basically, I live in the coding terminal 24/7.
+                When I was a kid, curiosity sparked my fascination with
+                technology, setting the stage for a lifelong journey into the
+                dynamic realm of IT. Now, as a recent graduate armed with both
+                knowledge and enthusiasm, I blend technical prowess with a sense
+                of humor. My passion for learning new skills fuels an
+                adventurous approach to projects, making me well-equipped and
+                eager to tackle challenges in this ever-evolving landscape.
               </p>
             </div>
           </Col>

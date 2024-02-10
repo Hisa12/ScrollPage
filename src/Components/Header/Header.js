@@ -7,7 +7,16 @@ import { Outlet } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
 import SNSIcons from "../SNSIcons/SNSIcons";
 import Footer from "../Footer/Footer";
-import HeaderList from "./HeaderList";
+
+const HeaderList = [
+  { id: "Home", title: "Home" },
+  { id: "AboutMe", title: "About Me" },
+  { id: "MySkills", title: "My Skills" },
+  { id: "Resume", title: "Resume" },
+  { id: "Project", title: "Project" },
+  { id: "Contact", title: "Contact" },
+];
+
 const { Title } = Typography;
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -19,8 +28,8 @@ function Header() {
     <div>
       <div className="navComp">
         <div className="logo">
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <Title style={{ color: "white" }}>Hisano</Title>
+          <Link to="Home" smooth={true} offset={-430} duration={500}>
+            <Title style={{ color: "white" }}>H.S</Title>
           </Link>
         </div>
         <div style={{ float: "right" }} className="hamburgerIcon">
@@ -35,7 +44,6 @@ function Header() {
         <div className="horizontalMenu">
           <Space>
             <NavigationBar />
-            {/* <SNSIcons /> */}
           </Space>
         </div>
 
@@ -72,7 +80,7 @@ function NavigationBar({ isInline = false }) {
         style={{
           border: "none",
           fontSize: 15,
-          width: 500,
+          width: 540,
           color: "white",
           backgroundColor: "black",
         }}
@@ -80,36 +88,40 @@ function NavigationBar({ isInline = false }) {
         selectedKeys={[current]}
         mode={isInline ? "inline" : "horizontal"}
       >
-        <Menu.Item key="h">
-          <Link to="Home" smooth={true} offset={-430} duration={500}>
-            Home
-          </Link>
-        </Menu.Item>
-        <Menu.Item key="i">
-          <Link to="AboutMe" smooth={true} offset={-430} duration={500}>
-            About
-          </Link>
-        </Menu.Item>
-        <Menu.Item key="p">
-          <Link to="MySkills" smooth={true} offset={200} duration={500}>
-            Skills
-          </Link>
-        </Menu.Item>
-        <Menu.Item key="j">
-          <Link to="Resume" smooth={true} offset={200} duration={500}>
-            Resume
-          </Link>
-        </Menu.Item>
-        <Menu.Item key="s">
-          <Link to="Project" smooth={true} offset={200} duration={500}>
-            Project
-          </Link>
-        </Menu.Item>
-        <Menu.Item key="c">
-          <Link to="Contact" smooth={true} offset={200} duration={500}>
-            Contact
-          </Link>
-        </Menu.Item>
+        {HeaderList.map((item) => (
+          <div>
+            <Menu.Item key={item.id}>
+              <Link to={item.id} smooth={true} offset={-430} duration={500}>
+                {item.title}
+              </Link>
+            </Menu.Item>
+            {/* <Menu.Item key="i">
+              <Link to="AboutMe" smooth={true} offset={-430} duration={500}>
+                About
+              </Link>
+            </Menu.Item>
+            <Menu.Item key="p">
+              <Link to="MySkills" smooth={true} offset={200} duration={500}>
+                Skills
+              </Link>
+            </Menu.Item>
+            <Menu.Item key="j">
+              <Link to="Resume" smooth={true} offset={200} duration={500}>
+                Resume
+              </Link>
+            </Menu.Item>
+            <Menu.Item key="s">
+              <Link to="Project" smooth={true} offset={200} duration={500}>
+                Project
+              </Link>
+            </Menu.Item>
+            <Menu.Item key="c">
+              <Link to="Contact" smooth={true} offset={200} duration={500}>
+                Contact
+              </Link>
+            </Menu.Item> */}
+          </div>
+        ))}
       </Menu>
     </div>
   );

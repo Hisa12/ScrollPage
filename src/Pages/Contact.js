@@ -28,7 +28,8 @@ function Contact() {
                 fontSize: "18px",
               }}
             >
-              My eagerness to acquire new technologies is unstoppable!{" "}
+              Feel free to reach out and let's collaborate on turning ideas into
+              impactful realities!{" "}
             </p>
             <Title
               style={{
