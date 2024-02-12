@@ -91,7 +91,7 @@ function NavigationBar({ isInline = false }) {
         {HeaderList.map((item) => (
           <div>
             <Menu.Item key={item.id}>
-              <Link to={item.id} smooth={true} offset={-430} duration={500}>
+              <Link to={item.id} smooth={true} offset={-100} duration={500}>
                 {item.title}
               </Link>
             </Menu.Item>
