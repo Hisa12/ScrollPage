@@ -1,11 +1,10 @@
 import React from "react";
 import "../Styles/Contact.css";
-import { Row, Col, Typography, Flex } from "antd";
+import { Col, Typography, Flex } from "antd";
 import { EnvironmentOutlined } from "@ant-design/icons";
 import EmailButton from "../Components/EmailButton/EmailButton";
-import background2 from "../assets/background2.png";
 
-const { Title, Text } = Typography;
+const { Title } = Typography;
 function Contact() {
   return (
     <div class="contactImg">

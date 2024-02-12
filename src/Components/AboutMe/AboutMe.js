@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Tag } from "antd";
+import { Typography } from "antd";
 
 import "./AboutMe.css";
 const { Title, Text } = Typography;

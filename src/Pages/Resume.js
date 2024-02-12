@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/Resume.css";
-import { Row, Col, Typography, Progress, Timeline } from "antd";
+import { Typography, Timeline } from "antd";
 
 const { Title } = Typography;
 function Resume() {

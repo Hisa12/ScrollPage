@@ -1,13 +1,11 @@
 import React from "react";
 import "../Styles/Home.css";
 import FirstPage from "./FirstPage";
-import { Row, Col, Typography, Progress } from "antd";
 import Contact from "./Contact";
 import Project from "./Project";
 import MySkills from "./MySkills";
 import AboutMe from "./AboutMe";
 import Resume from "./Resume";
-const { Title } = Typography;
 
 function Home() {
   return (

@@ -2,11 +2,7 @@ import "./Header.css";
 import { Space, Drawer, Menu, Typography } from "antd";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-
-import { Outlet } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
-import SNSIcons from "../SNSIcons/SNSIcons";
-import Footer from "../Footer/Footer";
 
 const HeaderList = [
   { id: "Home", title: "Home" },
@@ -60,9 +56,6 @@ function Header() {
           <NavigationBar isInline />
         </Drawer>
       </div>
-      {/* <Outlet /> */}
-
-      {/* <Footer /> */}
     </div>
   );
 }
@@ -95,31 +88,6 @@ function NavigationBar({ isInline = false }) {
                 {item.title}
               </Link>
             </Menu.Item>
-            {/* <Menu.Item key="i">
-              <Link to="AboutMe" smooth={true} offset={-430} duration={500}>
-                About
-              </Link>
-            </Menu.Item>
-            <Menu.Item key="p">
-              <Link to="MySkills" smooth={true} offset={200} duration={500}>
-                Skills
-              </Link>
-            </Menu.Item>
-            <Menu.Item key="j">
-              <Link to="Resume" smooth={true} offset={200} duration={500}>
-                Resume
-              </Link>
-            </Menu.Item>
-            <Menu.Item key="s">
-              <Link to="Project" smooth={true} offset={200} duration={500}>
-                Project
-              </Link>
-            </Menu.Item>
-            <Menu.Item key="c">
-              <Link to="Contact" smooth={true} offset={200} duration={500}>
-                Contact
-              </Link>
-            </Menu.Item> */}
           </div>
         ))}
       </Menu>

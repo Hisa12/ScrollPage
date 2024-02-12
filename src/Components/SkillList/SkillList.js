@@ -1,8 +1,17 @@
 import React from "react";
-import { Tag, Space, Card, Row, Col, Typography, Progress } from "antd";
-import SkillData from "./Skills/SkillData";
-const Title = Typography;
+import { Row, Col, Typography, Progress } from "antd";
 
+const Title = Typography;
+const SkillData = [
+  { skill: "HTML & CSS", percentage: 90 },
+  { skill: "JavaScript", percentage: 90 },
+  { skill: "React JS", percentage: 90 },
+  { skill: "React Native", percentage: 80 },
+  { skill: "Node JS", percentage: 70 },
+  { skill: "C#", percentage: 70 },
+  { skill: "AWS", percentage: 50 },
+  { skill: "MongoDB", percentage: 40 },
+];
 function SkillList() {
   return (
     <>

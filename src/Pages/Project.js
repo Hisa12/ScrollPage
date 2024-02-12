@@ -1,7 +1,6 @@
 import React from "react";
 import "../Styles/Project.css";
 import comingSoon from "../../src/assets/comingSoon.png";
-
 import { Row, Typography, Col } from "antd";
 
 const { Title } = Typography;

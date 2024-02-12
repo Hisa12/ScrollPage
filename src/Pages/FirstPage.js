@@ -1,8 +1,8 @@
 import React from "react";
 import SNSIcons from "../Components/SNSIcons/SNSIcons";
 import "../Styles/FirstPage.css";
-import AboutMeButton from "../Components/AboutMeButton/AboutMeButton";
-import { Row, Col, Typography, Flex } from "antd";
+
+import { Typography, Flex } from "antd";
 
 const { Title } = Typography;
 
