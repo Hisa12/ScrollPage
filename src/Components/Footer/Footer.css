@@ -11,3 +11,8 @@
   bottom: 0;
   width: 100%;
 }
+@media screen and (max-width: 400px) {
+  .footerContainer {
+    padding-top: 0px;
+  }
+}

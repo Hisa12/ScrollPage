@@ -12,17 +12,18 @@
   height: 75vh;
 }
 .firstContainer {
-  height: 80vh;
+  height: 90vh;
   padding-top: 80px;
 }
-
+.secondContainer {
+  height: 100vh;
+  padding-top: 80px;
+}
 .thirdContainer {
   height: 120vh;
-  padding-top: 80px;
 }
 .fourthContainer {
   height: 100vh;
-  padding-top: 80px;
 }
 
 .contactContainer {
@@ -47,25 +48,20 @@
 }
 
 @media screen and (max-width: 800px) {
-  .secondContainer.MySkills {
-    padding-top: 300px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .secondContainer.Resume {
-    padding-top: 300px;
+  .secondContainer {
+    padding-top: 100px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .thirdContainer {
-    padding-top: 300px;
+    padding-top: 200px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .fourthContainer {
-    padding-top: 100px;
+    padding-top: 50px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -77,5 +73,49 @@
 @media screen and (max-width: 800px) {
   .contactContainer {
     padding-top: 600px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .fourthContainer {
+    padding-top: 300px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .thirdContainer {
+    padding-top: 180px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .secondContainer {
+    padding-top: 250px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .fourthContainer {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fourthContainer {
+    padding-top: 120px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .secondContainer {
+    padding-top: 150px;
+  }
+  .thirdContainer {
+    padding-top: 30px;
+  }
+  .fourthContainer {
+    padding-top: 150px;
+  }
+  .contactContainer {
+    padding-top: 380px;
   }
 }

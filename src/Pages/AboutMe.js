@@ -26,12 +26,13 @@ function AboutMe() {
           <Col xs={22} sm={18} md={12} xl={10}>
             <div>
               <p
-                style={{
-                  textAlign: "left",
-                  color: "gray",
-                  lineHeight: "1.9",
-                  fontSize: "18px",
-                }}
+                className="description"
+                // style={{
+                //   textAlign: "left",
+                //   color: "gray",
+                //   lineHeight: "1.9",
+                //   fontSize: "18px",
+                // }}
               >
                 When I was a kid, curiosity sparked my fascination with
                 technology, setting the stage for a lifelong journey into the

@@ -19,7 +19,7 @@ function Home() {
         <div className="firstContainer">
           <AboutMe />
         </div>
-        <div className="secondContainer MySkills">
+        <div className="secondContainer">
           <MySkills />
         </div>
         <div className="thirdContainer">

@@ -5,7 +5,9 @@
 
 .workTimeContainer {
   padding-right: 180px;
+  padding-top: 20px;
 }
+
 @media screen and (max-width: 1000px) {
   .workTimeContainer {
     padding-right: 100px;
@@ -14,6 +16,16 @@
 @media screen and (max-width: 800px) {
   .workTimeContainer {
     padding-right: 10px;
-    padding-top: 100px;
+    padding-top: 80px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .workTimeContainer {
+    padding-top: 80px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .workTimeContainer {
+    padding-top: 10px;
   }
 }

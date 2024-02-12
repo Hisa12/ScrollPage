@@ -9,11 +9,11 @@ function Resume() {
       <Title style={{ color: "#ffffff", letterSpacing: "5px" }} id="Resume">
         Resume
       </Title>
-      <div style={{ paddingTop: 50 }}>
+      <div>
         <Title level={2} style={{ color: "#2CD4D9" }}>
           Work Experience
         </Title>
-        <div style={{ paddingTop: 30 }}>
+        <div className="subContainer">
           <div className="workTimeContainer">
             <Timeline
               mode="left"
@@ -73,11 +73,11 @@ function Resume() {
           </div>
         </div>
       </div>
-      <div style={{ paddingTop: 50 }}>
+      <div>
         <Title level={2} style={{ color: "#2CD4D9" }}>
           Education
         </Title>
-        <div style={{ paddingTop: 30 }}>
+        <div className="subContainer">
           <div className="workTimeContainer">
             <Timeline
               mode="left"

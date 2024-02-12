@@ -6,3 +6,15 @@
 .mainContainer {
   padding-top: 50px;
 }
+
+.description {
+  text-align: left;
+  color: gray;
+  line-height: 1.9;
+  font-size: 18px;
+}
+@media screen and (max-width: 400px) {
+  .description {
+    text-align: center;
+  }
+}

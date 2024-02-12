@@ -27,7 +27,7 @@ function SkillList() {
               trailColor="#212122"
               strokeLinecap="butt"
               showInfo={false}
-              size={[420, 15]}
+              size={[380, 15]}
             />
           </Row>
         </Col>

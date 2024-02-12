@@ -11,3 +11,9 @@
   padding-left: 7px;
   padding-right: 7px;
 }
+
+@media screen and (max-width: 400px) {
+  .contactImg {
+    height: 50vh;
+  }
+}
