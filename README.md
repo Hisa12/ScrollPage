@@ -1,12 +1,13 @@
-# My Portfolio
+# Scroll Page
 
-Welcome to my portfolio! 
 This repository showcases my skills.
+- Website: https://scroll-page.netlify.app/
 
 This website includes
 - About me
-- IT skills
-- Experience
-- Contact info
+- My Skills
+- Resume
+- Project
+- Contact
 
-Feel free to reach out to me.
+Feel free to reach out to me!
