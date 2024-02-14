@@ -16,7 +16,7 @@ function MySkills() {
         <p
           style={{
             textAlign: "center",
-            color: "gray",
+            color: "#808588",
             lineHeight: "1.9",
             fontSize: "18px",
           }}

@@ -29,7 +29,7 @@ function Project() {
         <p
           style={{
             textAlign: "center",
-            color: "gray",
+            color: "#808588",
             lineHeight: "1.9",
             fontSize: "18px",
           }}
@@ -72,7 +72,6 @@ function Project() {
                 Read more
               </Button>
               <Modal
-                title="Weather Forecast"
                 footer={null}
                 open={isModalOpen}
                 onOk={handleOk}
@@ -85,22 +84,29 @@ function Project() {
                   alt="weather-project"
                 />
                 <div>
-                  <p>
-                    It is an application which allows you to download, read and
-                    publish book for free.Get unlimited book download. Read book
-                    inside app itself using inbuilt reader. Customize your
-                    reading screen to your reading style. Use in-built
-                    dictionary. Create your own vocabulary and many more thing.
+                  <Title level={3}>Weather Forecast</Title>
+                  <p
+                    style={{
+                      color: "#808588",
+                      textAlign: "left",
+                      fontSize: "16px",
+                    }}
+                  >
+                    This weather application provides users with real-time
+                    information on the current weather, including the current
+                    temperature and precipitation. Additionally, it displays a
+                    3-day rain forecast, allowing users to plan their activities
+                    based on upcoming weather conditions.
                   </p>
                   <div>
-                    <Title level={4}>Technologies Used</Title>
+                    <Title level={5}>Technologies Used</Title>
                     <ul>
                       <li>React JS</li>
                       <li>Ant Design</li>
                     </ul>
                   </div>
                 </div>
-                <div>
+                <div style={{ paddingTop: "5px" }}>
                   <Button
                     style={{
                       color: "#ffffff",

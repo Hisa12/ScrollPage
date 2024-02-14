@@ -26,10 +26,10 @@ function Resume() {
                       </Title>
                       <p
                         style={{
-                          color: "gray",
+                          color: "#808588",
                           textAlign: "right",
-                          lineHeight: "1.9",
-                          fontSize: "13px",
+
+                          fontSize: "18px",
                         }}
                       >
                         February 2023 – July 2023
@@ -44,17 +44,17 @@ function Resume() {
                       <p
                         style={{
                           fontWeight: "bold",
-                          color: "gray",
+                          color: "#808588",
                           textAlign: "left",
-                          lineHeight: "1.9",
-                          fontSize: "13px",
+
+                          fontSize: "18px",
                         }}
                       >
                         Intern
                       </p>
                       <p
                         style={{
-                          color: "gray",
+                          color: "#808588",
                           textAlign: "left",
                           lineHeight: "1.9",
                           fontSize: "18px",
@@ -88,7 +88,15 @@ function Resume() {
                       <Title level={3} style={{ color: "#ffffff" }}>
                         Master's Degree in CS
                       </Title>
-                      <p style={{ color: "gray" }}> 2022 – 2023</p>
+                      <p
+                        style={{
+                          color: "#808588",
+                          textAlign: "right",
+                          fontSize: "18px",
+                        }}
+                      >
+                        2022 – 2023
+                      </p>
                     </div>
                   ),
                   children: (
@@ -96,7 +104,15 @@ function Resume() {
                       <Title level={3} style={{ color: "#ffffff" }}>
                         Queensland University of Technology
                       </Title>
-                      <p style={{ color: "#ffffff" }}>Final GPA 5.9 / 7</p>
+                      <p
+                        style={{
+                          color: "#ffffff",
+                          textAlign: "left",
+                          fontSize: "18px",
+                        }}
+                      >
+                        Final GPA 5.9 / 7
+                      </p>
                     </div>
                   ),
                 },

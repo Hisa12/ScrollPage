@@ -34,13 +34,6 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1000px) {
-  .outline {
-    padding-right: 12px;
-    padding-left: 12px;
-  }
-}
-
 @media screen and (max-width: 1200px) {
   .thirdContainer {
     padding-top: 200px;
@@ -52,16 +45,10 @@
     padding-top: 350px;
   }
 }
-
-@media screen and (max-width: 770px) {
-  .secondContainer {
-    padding-top: 80px;
-  }
-  .fourthContainer {
-    padding-top: 80px;
-  }
-  .contactContainer {
-    padding-top: 300px;
+@media screen and (max-width: 1000px) {
+  .outline {
+    padding-right: 12px;
+    padding-left: 12px;
   }
 }
 
@@ -70,16 +57,28 @@
     padding-top: 100px;
   }
   .contactContainer {
-    padding-top: 550px;
+    padding-top: 450px;
   }
   .secondContainer {
-    padding-top: 200px;
+    padding-top: 120px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
+  .secondContainer {
+    padding-top: 230px;
+  }
   .fourthContainer {
-    padding-top: 200px;
+    padding-top: 80px;
+  }
+  .contactContainer {
+    padding-top: 600px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .fourthContainer {
+    padding-top: 150px;
   }
 }
 

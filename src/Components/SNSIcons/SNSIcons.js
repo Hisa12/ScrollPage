@@ -10,10 +10,10 @@ function SNSIcons() {
         href="https://www.linkedin.com/in/hisano-sato-501a42205"
         className="LinkedInLink"
       >
-        <LinkedinFilled style={{ fontSize: "50px", color: "gray" }} />
+        <LinkedinFilled style={{ fontSize: "50px", color: "#808588" }} />
       </a>
       <a href="https://github.com/Hisa12">
-        <GithubOutlined style={{ fontSize: "50px", color: "gray" }} />
+        <GithubOutlined style={{ fontSize: "50px", color: "#808588" }} />
       </a>
     </Space>
   );
