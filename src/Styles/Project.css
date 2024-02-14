@@ -13,7 +13,7 @@
 }
 
 .projectScreen {
-  max-width: 600px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -41,6 +41,12 @@
   color: #ffffff;
   line-height: 1.9;
   font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .projectImage {
+    padding-top: 200px;
+  }
 }
 /* .readMoreButton {
   background-color: #2cd4d9;

@@ -10,7 +10,7 @@ function FirstPage() {
   return (
     <div className="container">
       <div className="padding">
-        <Flex vertical>
+        <Flex vertical style={{ paddingTop: "30px" }} id="Home">
           <Title
             level={4}
             style={{
@@ -22,7 +22,7 @@ function FirstPage() {
           </Title>
           <Title
             style={{
-              color: "#FFFFFF",
+              color: "#ffffff",
               fontSize: "6vw",
               letterSpacing: "5px",
               marginTop: 0,
@@ -34,7 +34,7 @@ function FirstPage() {
             <Title
               level={5}
               style={{
-                color: "#FFFFFF",
+                color: "#ffffff",
                 letterSpacing: "4px",
               }}
             >

@@ -22,15 +22,15 @@ function Header() {
 
   return (
     <div>
-      <div className="navComp">
+      <div className="header">
         <div className="logo">
           <Link to="Home" smooth={true} offset={-430} duration={500}>
-            <Title style={{ color: "white" }}>H.S</Title>
+            <Title style={{ color: "#ffffff" }}>H.S</Title>
           </Link>
         </div>
-        <div style={{ float: "right" }} className="hamburgerIcon">
+        <div style={{ float: "right", width: 120 }} className="hamburgerIcon">
           <MenuOutlined
-            style={{ color: "white", fontSize: 30 }}
+            style={{ color: "#ffffff", fontSize: 30 }}
             onClick={() => {
               setOpenMenu(true);
             }}
@@ -44,14 +44,14 @@ function Header() {
         </div>
 
         <Drawer
-          placement="right"
+          placement="center"
           open={openMenu}
           onClose={() => {
             setOpenMenu(false);
           }}
           closable={true}
           onClick={toggleDrawer}
-          drawerStyle={{ backgroundColor: "black" }}
+          drawerStyle={{ backgroundColor: "#050301" }}
         >
           <NavigationBar isInline />
         </Drawer>
@@ -61,7 +61,7 @@ function Header() {
 }
 
 function NavigationBar({ isInline = false }) {
-  const [current, setCurrent] = useState("h");
+  const [current, setCurrent] = useState("Home");
   const onClick = (e) => {
     console.log("click", e);
     setCurrent(e.key);
@@ -73,23 +73,23 @@ function NavigationBar({ isInline = false }) {
         style={{
           border: "none",
           fontSize: 15,
-          width: 540,
-          color: "white",
-          backgroundColor: "black",
+          width: 600,
+          color: "#ffffff",
+          backgroundColor: "#050301",
         }}
         onClick={onClick}
         selectedKeys={[current]}
         mode={isInline ? "inline" : "horizontal"}
       >
-        {HeaderList.map((item) => (
-          <div>
+        <div>
+          {HeaderList.map((item) => (
             <Menu.Item key={item.id}>
               <Link to={item.id} smooth={true} offset={-100} duration={500}>
                 {item.title}
               </Link>
             </Menu.Item>
-          </div>
-        ))}
+          ))}
+        </div>
       </Menu>
     </div>
   );

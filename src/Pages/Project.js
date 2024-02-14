@@ -85,7 +85,20 @@ function Project() {
                   alt="weather-project"
                 />
                 <div>
-                  <p>description</p>
+                  <p>
+                    It is an application which allows you to download, read and
+                    publish book for free.Get unlimited book download. Read book
+                    inside app itself using inbuilt reader. Customize your
+                    reading screen to your reading style. Use in-built
+                    dictionary. Create your own vocabulary and many more thing.
+                  </p>
+                  <div>
+                    <Title level={4}>Technologies Used</Title>
+                    <ul>
+                      <li>React JS</li>
+                      <li>Ant Design</li>
+                    </ul>
+                  </div>
                 </div>
                 <div>
                   <Button

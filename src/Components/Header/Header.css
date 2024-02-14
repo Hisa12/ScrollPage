@@ -1,15 +1,19 @@
-.navComp {
+.header {
   background-color: black;
   padding: 0 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 100;
 }
 
 .horizontalMenu {
   float: right;
 }
-
 .ant-menu-item:hover,
 .ant-menu .ant-menu-item-selected,
 .ant-menu-horizontal .ant-menu-item::after,
@@ -24,7 +28,7 @@
 }
 
 .logo {
-  width: 200px;
+  width: 180px;
   float: left;
 }
 

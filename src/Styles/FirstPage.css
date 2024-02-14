@@ -1,7 +1,6 @@
 .container {
-  height: 75vh;
+  height: 85vh;
   background-image: url("../assets/background1.png");
-
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
