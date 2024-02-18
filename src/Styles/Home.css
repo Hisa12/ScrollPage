@@ -69,16 +69,25 @@
     padding-top: 230px;
   }
   .fourthContainer {
-    padding-top: 80px;
+    padding-top: 100px;
   }
   .contactContainer {
     padding-top: 600px;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 740px) {
   .fourthContainer {
-    padding-top: 150px;
+    padding-top: 170px;
+  }
+  .contactContainer {
+    padding-top: 800px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fourthContainer {
+    padding-top: 180px;
   }
 }
 
@@ -93,6 +102,6 @@
     padding-top: 150px;
   }
   .contactContainer {
-    padding-top: 380px;
+    padding-top: 550px;
   }
 }

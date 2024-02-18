@@ -25,7 +25,7 @@ function Header() {
       <div className="header">
         <div className="logo">
           <Link to="Home" smooth={true} offset={-430} duration={500}>
-            <Title style={{ color: "#ffffff" }}>H.S</Title>
+            <Title style={{ color: "#ffffff", cursor: "pointer" }}>H.S</Title>
           </Link>
         </div>
         <div style={{ float: "right", width: 120 }} className="hamburgerIcon">

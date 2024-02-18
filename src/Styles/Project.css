@@ -5,16 +5,18 @@
 
 .projectImage {
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
+
   opacity: 1;
-  /* display: block; */
   transition: 0.5s ease;
   backface-visibility: hidden;
+  background-color: blueviolet;
 }
 
 .projectScreen {
   max-width: 100%;
   height: auto;
+  background-color: blue;
 }
 
 .middle {
@@ -42,25 +44,3 @@
   line-height: 1.9;
   font-size: 16px;
 }
-
-@media screen and (max-width: 600px) {
-  .projectImage {
-    padding-top: 200px;
-  }
-}
-/* .readMoreButton {
-  background-color: #2cd4d9;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 16px 32px;
-} */
-/* @media screen and (max-width: 900px) {
-  .projectComp {
-    height: 100vh;
-  }
-}
-@media screen and (max-width: 870px) {
-  .projectComp {
-    height: 120vh;
-  }
-} */
