@@ -1,7 +1,7 @@
 # Scroll Page
 
 This repository showcases my skills.
-- Website: https://scroll-page.netlify.app/
+- Website: https://newportfolio122.netlify.app/
 
 This website includes
 - About me
